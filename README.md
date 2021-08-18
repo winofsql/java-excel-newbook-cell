@@ -26,3 +26,22 @@ Apache POI 5.0.0 : 新規ブック、新規シート、セル書込、保存
 
 ![image](https://user-images.githubusercontent.com/1501327/129868437-62274b8f-0f06-4f69-ab28-db54c70cb5e7.png)
 
+```java
+// セルに書き込む為のオブジェクト作成・取得処理
+static void cell(XSSFSheet sheet, int row, int col, String value) {
+
+    XSSFRow xslRow = sheet.getRow(row - 1);
+    if ( xslRow == null ) {
+        // 行を作成
+        xslRow = sheet.createRow( row - 1 );
+    }
+
+    XSSFCell cell = xslRow.getCell( col - 1 );
+    if ( cell == null ) {
+        // セルを作成
+        cell = xslRow.createCell( col - 1 );
+    }
+    cell.setCellValue(value);
+
+}
+```
