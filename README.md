@@ -8,12 +8,12 @@ Apache POI 5.0.0 : 新規ブック、新規シート、セル書込、保存
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "C:\\app\\workspace\\poi-5.0.0.jar",
-        "C:\\app\\workspace\\commons-collections4-4.4.jar",
-        "C:\\app\\workspace\\xmlbeans-4.0.0.jar",
-        "C:\\app\\workspace\\poi-ooxml-full-5.0.0.jar",
-        "C:\\app\\workspace\\poi-ooxml-5.0.0.jar",
-        "C:\\app\\workspace\\commons-compress-1.20.jar"
+        "C:\\app\\workspace\\lib\\poi-5.0.0.jar",
+        "C:\\app\\workspace\\lib\\commons-collections4-4.4.jar",
+        "C:\\app\\workspace\\lib\\xmlbeans-4.0.0.jar",
+        "C:\\app\\workspace\\lib\\poi-ooxml-full-5.0.0.jar",
+        "C:\\app\\workspace\\lib\\poi-ooxml-5.0.0.jar",
+        "C:\\app\\workspace\\lib\\commons-compress-1.20.jar"
     ]
 }
 ```
