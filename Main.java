@@ -26,9 +26,16 @@ public class Main {
             cell( sheet1, 3, 2, "値2");
             cell( sheet1, 4, 2, "値3");
 
+            cell( sheet2, 1, 1, "社員名");
+            cell( sheet2, 2, 1, "山田　太郎甚左衛門");
+            cell( sheet2, 3, 1, "鈴木　一郎");
+            cell( sheet2, 4, 1, "佐藤　洋子");
+
             FileOutputStream fos = new FileOutputStream("sample.xlsx");
             
             book.write(fos);
+
+            book.close();
             
         } catch (Exception e) {
 
