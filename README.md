@@ -45,3 +45,5 @@ static void cell(XSSFSheet sheet, int row, int col, String value) {
 
 }
 ```
+
+[その他まとめ](https://logicalerror.seesaa.net/article/478723381.html)
